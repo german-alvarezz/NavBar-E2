@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;600;700;800;900&display=swap');
+
+:root {
+  /*bg colors */
+  --backkground: #303030;
+  --primary: #2b2b2b;
+  --secondary: #727070;
+  --boton: #d6d6d6;
+
+  /*Text Colors */
+  --text-gray: #adb9c7;
+}
+
+/* Selector Universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Header */
+header {
+  background: var(--secondary);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0px 30px 0px 30px;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  height: 60px;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.navbar-list {
+  gap: 20px;
+}
+
+.navbar {
+  gap: 20px;
+}
+
+.navbar-list a {
+  color: var(--text-gray);
+}
+
+.boton-home a {
+  color: var(--text-gray);
+  background-color: var(--primary);
+  width: 150px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.cart-icon {
+  border: 1px solid var(--primary);
+  padding: 3px 12px;
+  margin-top: 3px;
+  border-radius: 10px;
+  height: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
