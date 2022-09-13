@@ -36,6 +36,7 @@ header {
 
 .logo {
   height: 60px;
+  cursor: pointer;
 }
 
 .navbar,
@@ -53,7 +54,7 @@ header {
   transition: background-color 0.2s;
 }
 
-a:hover {
+.navbar-list a:hover {
   background-color: var(--primary);
   color: var(--text-gray);
   width: 100px;
